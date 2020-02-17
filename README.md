@@ -42,6 +42,13 @@ python g-search-cli/main.py
 Check comments on `config.py` for details about setting up your own `config.env` file to customize the behavior of this tool.
 
 
+## Terms of Service
+
+**By using this tool, you are agreeing to [Google's Terms of Service](https://policies.google.com/terms)**. Note that automated querying and scraping of search results is [against Google's Terms of Services](https://support.google.com/webmasters/answer/66357?hl=en), so only use this tool as you would use a regular web browser.
+
+**DISCLAIMER: This is not a Google product or endorsed by Google.**
+
+
 ## Development TODOs
 
 - [ ] deal with "did you mean" queries (spell correction)
@@ -52,9 +59,3 @@ Check comments on `config.py` for details about setting up your own `config.env`
 - [ ] add option to disable terminal colors
 - [x] deal with the case where there is no results
 - [x] load cookies from a local file in .gitignore
-
-## Terms of Services
-
-**By using this tool, you are agreeing to [Google's Terms of Service](https://policies.google.com/terms)**. Note that automated querying and scraping of search results is [against Google's Terms of Services](https://support.google.com/webmasters/answer/66357?hl=en), so only use this tool as you would use a regular web browser.
-
-**DISCLAIMER: This is not a Google product or endorsed by Google.**
