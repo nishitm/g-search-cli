@@ -1,0 +1,7 @@
+**/__pycache__/
+.mypy_cache/
+
+config.env
+history.txt
+last_search.txt
+visited_urls.txt
