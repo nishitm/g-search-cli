@@ -32,9 +32,10 @@ python g-search-cli/main.py
 
 ## Additional features
 
-* You may type `"-r"` (without quotes) as a search query to *repeat* the last query. This works even if the tool was closed, since the last query is saved on disk.
-* You may type `"-a <some text>"` (without quotes) as a search query to make a new query *apending* to the last query. This works even if the tool was closed, since the last query is saved on disk.
-* You may type `"-b"` (without quotes) to go *back* to the previous query. You can do that multiple times, but only for queries done in the the current session.
+* After you are shown the query results, you may type another search query instead of a number.
+* You may type `"-r"` (without quotes) to *repeat* the last query. This works even as the first query, as the tool saves the last performed search query on disk before exiting.
+* You may type `"-a <some text>"` (without quotes) to make a new query *apending* to the last query. This works even as the first command, as the tool saves the last performed search query on disk before exiting.
+* You may type `"-b"` (without quotes) to go *back* to the previous query, similarly to an "undo" command. You can do that multiple times, but only supports queries done during the current session.
 
 
 ## Configuration
