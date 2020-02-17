@@ -32,6 +32,5 @@ def try_parse_config_file(filename: str) -> dict:
 
         key, value = line.split("=", 1)
         config_dict[key] = value
-    
-    return config_dict
 
+    return config_dict

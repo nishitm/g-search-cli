@@ -20,7 +20,7 @@ def print_search_results(results: SearchResults, visited_urls: set = set()):
         if result.description is not None and len(result.description) > 0:
             print(result.description)
         print()
-    
+
     if len(results.results) == 0:
         print("There is no results to show. Try another query.")
         print()
