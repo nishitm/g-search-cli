@@ -52,6 +52,8 @@ Check comments on `config.py` for details about setting up your own `config.env`
 
 ## Development TODOs
 
+- [ ] add shorthand for searching in specific sites (eg: -mdn searches only in mozillas developer network)
+- [ ] add "quit" to the list of additional features on Readme
 - [ ] deal with "did you mean" queries (spell correction)
 - [ ] sometimes the description is not correctly parsed and only the date is shown. example query: "albert einstein space"
 - [ ] add command to copy url to clipboard
