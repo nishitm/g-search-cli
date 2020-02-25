@@ -13,7 +13,7 @@ def try_parse_int(string: str) -> Optional[int]:
 
 def open_system_default_browser(url: str):
     url = url.replace("&", "^&")
-    system("start " + url)
+    system("open " + url)
 
 
 def try_parse_config_file(filename: str) -> dict:

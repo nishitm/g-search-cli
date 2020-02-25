@@ -10,8 +10,9 @@ from utils import try_parse_int, open_system_default_browser
 
 class Main:
     def __init__(self):
-        self.search_results: SearchResults = None
-        self.search_result_history: List[SearchResults] = []
+        SearchResults = []
+        self.search_results = SearchResults
+        self.search_result_history = list(SearchResults)
 
     def start(self):
         print_search_prompt()
